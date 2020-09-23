@@ -1,0 +1,102 @@
+@media (max-width: 768px) {
+	.description h1 {
+		font-size: 140% !important;
+		text-align: center;
+	}
+	.description p {
+		font-size: 10px !important;
+		padding-top: 0.5rem !important;
+		text-align: center;
+	}
+	.digital {
+		display: none;
+	}
+	.description button {
+		align-items: center;
+		margin-left: 1rem !important;
+	}
+	.image_div {
+		order: 1;
+	}
+	.d1 {
+		order: 2;
+	}
+}
+
+body {
+	padding-top: 70px;
+}
+.navbar {
+	background: #ffffff;
+	padding-top: 1.5rem;
+}
+.nav-link,
+.navbar-brand {
+	color: #000;
+	cursor: pointer;
+}
+.navbar-brand {
+	padding-left: 1rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #000;
+}
+.nav-link {
+	margin-right: 1em !important;
+}
+.nav-link:hover {
+	background: #f4f4f4;
+	color: #f97300;
+}
+.navbar-collapse {
+	justify-content: flex-end;
+}
+.navbar-toggler {
+	background: #fff !important;
+	border-color: rgba(0, 0, 0, 0);
+}
+.navbar-light .navbar-toggler {
+	border-color: rgba(0, 0, 0, 0);
+	color: #000;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+	display: block;
+	padding: 1.5rem;
+}
+#brand {
+	height: 100px;
+	width: 100px;
+}
+
+.description {
+	top: 15%;
+	margin: auto;
+	padding: 2em;
+}
+.description h1 {
+	color: #000;
+	text-shadow: 2px 0 #000;
+	letter-spacing: 2px;
+	font-weight: bold;
+	font-size: 325%;
+}
+.description p {
+	color: #666;
+	font-size: 20px;
+	line-height: 1.5;
+	padding-top: 2rem;
+}
+.description button {
+	border: 1px solid rgb(245, 121, 88, 0.8);
+	background: rgb(245, 121, 88, 0.8);
+	color: #000;
+	border-radius: 40px/20px;
+	padding: 12px 35px;
+	margin-top: 1rem;
+	cursor: pointer;
+	text-align: center;
+}
